@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#check to make sure the user is entering a time in format 00:00
 check_format()
 {
 	if [[ $1 == ??:?? ]]; then
@@ -9,6 +10,7 @@ check_format()
 	fi
 }
 
+#extract the hour and minute supplied by the user in the format 00:00 using awk
 extract_time()
 {
 	if [ $1 == "-h" ]; then
@@ -19,7 +21,7 @@ extract_time()
 	fi
 	fi
 }
-
+#Calculate the length of how long the computer will be suspended for
 time_difference()
 {
 
