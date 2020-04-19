@@ -2,8 +2,7 @@
 
 # Dependencies
 
-rtcwake
-mpv
+rtcwake & mpv
 
 # setup
   chmod u+x alarm.sh
