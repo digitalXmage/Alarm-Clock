@@ -22,3 +22,6 @@ To set the alarm clock time to wake up to
     ./alarm.sh hh:mm
   
   
+# To do
+
+Timer feature
